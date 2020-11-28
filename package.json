@@ -1,7 +1,7 @@
 {
-  "name": "ngx-tour-md-menu",
-  "version": "4.2.0",
-  "repository": "https://github.com/isaacplmann/ngx-tour.git",
+  "name": "@ngx-tour/md-menu",
+  "version": "1.0.0",
+  "repository": "https://github.com/alvaro-octal/ngx-tour-md-menu.git",
   "author": "Isaac Mann <isaacplmann@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -14,6 +14,30 @@
     "@angular/animations": ">=7.0.0 <11.0.0",
     "@angular/cdk": ">=7.0.0 <11.0.0",
     "@angular/material": ">=7.0.0 <11.0.0",
-    "ngx-tour-core": "^4.2.0"
+    "@ngx-tour/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1000.5",
+    "@angular-devkit/build-ng-packagr": "~0.1000.5",
+    "@angular/animations": "^10.2.3",
+    "@angular/cdk": "^10.2.7",
+    "@angular/cli": "^10.0.5",
+    "@angular/common": "^10.2.3",
+    "@angular/compiler": "^10.0.5",
+    "@angular/compiler-cli": "^10.0.5",
+    "@angular/core": "^10.2.3",
+    "@angular/material": "^10.1.2",
+    "@angular/platform-browser": "^10.2.3",
+    "@angular/router": "^10.2.3",
+    "@angular/forms": "^10.2.3",
+    "@ngx-tour/core": "^1.0.0",
+    "cpx": "^1.5.0",
+    "ng-packagr": "^10.0.5",
+    "rxjs": "^6.6.3",
+    "typescript": "~3.9.7"
+  },
+  "scripts": {
+    "build": "ng build @ngx-tour/md-menu --prod && cpx CHANGELOG.md dist/",
+    "publish": "npm publish dist --access=public"
   }
 }
