@@ -4,22 +4,22 @@ import {
   ContentChild,
   Input,
   TemplateRef,
-  ViewChild
-} from '@angular/core';
-import { MatMenu } from '@angular/material/menu';
-import { IStepOption, TourHotkeyListenerComponent } from '@ngx-tour/core';
+  ViewChild,
+} from "@angular/core";
+import { MatMenu } from "@angular/material/menu";
+import { IStepOption, TourHotkeyListenerComponent } from "@ngx-tour/core";
 
-import { TourStepTemplateService } from './tour-step-template.service';
-import { NgxmTourService } from './ngx-md-menu-tour.service';
+import { TourStepTemplateService } from "./tour-step-template.service";
+import { NgxmTourService } from "./ngx-md-menu-tour.service";
 
 @Component({
-  selector: 'tour-step-template',
+  selector: "tour-step-template",
   styles: [
     `
       ::ng-deep .tour-step .mat-menu-content {
         padding: 0 !important;
       }
-    `
+    `,
   ],
   template: `
     <mat-menu [overlapTrigger]="false" class="tour-step">
@@ -59,9 +59,10 @@ import { NgxmTourService } from './ngx-md-menu-tour.service';
         </mat-card-actions>
       </mat-card>
     </ng-template>
-  `
+  `,
 })
-export class TourStepTemplateComponent extends TourHotkeyListenerComponent
+export class TourStepTemplateComponent
+  extends TourHotkeyListenerComponent
   implements AfterViewInit {
   @ViewChild(MatMenu) public tourStep: MatMenu;
 

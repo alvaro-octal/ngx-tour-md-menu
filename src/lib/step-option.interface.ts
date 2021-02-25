@@ -1,5 +1,5 @@
-import { IStepOption } from '@ngx-tour/core';
+import { IStepOption } from "@ngx-tour/core";
 
 export interface INgxmStepOption extends IStepOption {
-    enableBackdrop?: boolean;
+  enableBackdrop?: boolean;
 }
