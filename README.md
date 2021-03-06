@@ -1,6 +1,6 @@
 # Ngx-Tour Md-Menu
-[![Dependency Status](https://david-dm.org/isaacplmann/ngx-tour-md-menu.svg)](https://david-dm.org/isaacplmann/ngx-tour-md-menu)
-[![devDependency Status](https://david-dm.org/isaacplmann/ngx-tour-md-menu/dev-status.svg)](https://david-dm.org/isaacplmann/ngx-tour-md-menu?type=dev)
+[![Dependency Status](https://david-dm.org/alvaro-octal/ngx-tour-md-menu.svg)](https://david-dm.org/alvaro-octal/ngx-tour-md-menu)
+[![devDependency Status](https://david-dm.org/alvaro-octal/ngx-tour-md-menu/dev-status.svg)](https://david-dm.org/alvaro-octal/ngx-tour-md-menu?type=dev)
 
 Check out the [documentation/demo page](https://isaacplmann.github.io/ngx-tour).
 
