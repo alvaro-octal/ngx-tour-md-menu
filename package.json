@@ -9,7 +9,7 @@
         "withinviewport": "^2.0.0"
     },
     "peerDependencies": {
-        "@angular/cdk": "11.0.0",
+        "@angular/cdk": "^11.0.0",
         "@angular/material": "^11.2.2",
         "@ngx-tour/core": "^11.0.0"
     },
