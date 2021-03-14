@@ -5,27 +5,27 @@
     "author": "Isaac Mann <isaacplmann@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "tslib": "^2.0.0",
-        "withinviewport": "^2.0.0"
+        "tslib": "^2.1.0",
+        "withinviewport": "^2.1.2"
     },
     "peerDependencies": {
-        "@angular/cdk": "^11.0.0",
-        "@angular/material": "^11.2.2",
+        "@angular/cdk": "^11.2.4",
+        "@angular/material": "^11.2.4",
         "@ngx-tour/core": "^11.0.0"
     },
     "devDependencies": {
-        "@angular-devkit/build-angular": "~0.1102.3",
-        "@angular/animations": "^11.2.3",
+        "@angular-devkit/build-angular": "~0.1102.4",
+        "@angular/animations": "^11.2.5",
         "@angular/cdk": "^11.2.4",
-        "@angular/cli": "^11.2.3",
-        "@angular/common": "^11.2.4",
-        "@angular/compiler": "^11.2.4",
-        "@angular/compiler-cli": "^11.2.4",
-        "@angular/core": "^11.2.4",
-        "@angular/forms": "^11.2.4",
+        "@angular/cli": "^11.2.4",
+        "@angular/common": "^11.2.5",
+        "@angular/compiler": "^11.2.5",
+        "@angular/compiler-cli": "^11.2.5",
+        "@angular/core": "^11.2.5",
+        "@angular/forms": "^11.2.5",
         "@angular/material": "^11.2.4",
-        "@angular/platform-browser": "^11.2.3",
-        "@angular/router": "^11.2.4",
+        "@angular/platform-browser": "^11.2.5",
+        "@angular/router": "^11.2.5",
         "@ngx-tour/core": "^11.0.0",
         "cpx": "^1.5.0",
         "ng-packagr": "^11.2.4",
@@ -33,6 +33,7 @@
         "typescript": "~4.1.5"
     },
     "scripts": {
+        "upgrade": "ncu -u -x typescript,rxjs",
         "build": "ng build @ngx-tour/md-menu --prod && cpx CHANGELOG.md dist/",
         "publish": "npm publish dist --access=public"
     }
