@@ -1,6 +1,6 @@
 {
     "name": "@ngx-tour/md-menu",
-    "version": "11.0.0",
+    "version": "11.0.1",
     "repository": "https://github.com/alvaro-octal/ngx-tour-md-menu.git",
     "author": "Isaac Mann <isaacplmann@gmail.com>",
     "license": "MIT",
@@ -9,7 +9,7 @@
         "withinviewport": "^2.1.2"
     },
     "peerDependencies": {
-        "@angular/cdk": "^11.2.4",
+        "@angular/cdk": "^11.0.0",
         "@angular/material": "^11.2.4",
         "@ngx-tour/core": "^11.0.0"
     },
