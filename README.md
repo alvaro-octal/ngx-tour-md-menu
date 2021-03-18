@@ -1,4 +1,5 @@
-# Ngx-Tour Md-Menu
+# @ngx-tour/md-menu
+[![npm version](https://badge.fury.io/js/%40ngx-tour%2Fmd-menu.svg)](https://badge.fury.io/js/%40ngx-tour%2Fmd-menu)
 [![Dependency Status](https://david-dm.org/alvaro-octal/ngx-tour-md-menu.svg)](https://david-dm.org/alvaro-octal/ngx-tour-md-menu)
 [![devDependency Status](https://david-dm.org/alvaro-octal/ngx-tour-md-menu/dev-status.svg)](https://david-dm.org/alvaro-octal/ngx-tour-md-menu?type=dev)
 
