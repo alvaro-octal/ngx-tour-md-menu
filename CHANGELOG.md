@@ -1,3 +1,10 @@
+## [11.0.4](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.0.3...v11.0.4) (2021-03-18)
+
+
+### Fix
+
+* Release Script ([6b216e6](https://github.com/alvaro-octal/ngx-tour-md-menu/commit/6b216e6d330f218b263e89f3fb9216910a9adf7e))
+
 <a name="4.2.0"></a>
 
 # [4.2.0](https://github.com/isaacplmann/ngx-tour) (2020-08-10)
