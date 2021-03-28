@@ -1,3 +1,10 @@
+## [11.1.1](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.1.0...v11.1.1) (2021-03-28)
+
+
+### Fix
+
+* hide backdrop when step is hidden ([b30ddd8](https://github.com/alvaro-octal/ngx-tour-md-menu/commit/b30ddd86fafc82858a63150ba2f4aaa2d1ba0cc2))
+
 # [11.1.0](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.0.4...v11.1.0) (2021-03-28)
 
 
