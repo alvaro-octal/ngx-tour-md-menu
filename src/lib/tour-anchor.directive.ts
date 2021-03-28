@@ -104,8 +104,6 @@ export class TourAnchorMatMenuDirective
       this.menuCloseSubscription.unsubscribe();
     }
     this.opener.trigger.closeMenu();
-    if (this.tourService.getStatus() === TourState.OFF) {
-      this.tourBackdrop.close();
-    }
+    this.tourBackdrop.close();
   }
 }
