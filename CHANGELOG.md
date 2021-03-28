@@ -1,3 +1,10 @@
+# [11.1.0](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.0.4...v11.1.0) (2021-03-28)
+
+
+### New
+
+* Add backdrop zindex ([83138ce](https://github.com/alvaro-octal/ngx-tour-md-menu/commit/83138ce61a038ffac17f9fec41844be5a2568aa5))
+
 ## [11.0.4](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.0.3...v11.0.4) (2021-03-18)
 
 
