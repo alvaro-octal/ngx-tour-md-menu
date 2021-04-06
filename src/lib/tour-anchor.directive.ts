@@ -5,33 +5,30 @@ import {
   HostBinding,
   Injector,
   Input,
-  ViewContainerRef
+  ViewContainerRef,
 } from '@angular/core';
-import type {OnDestroy, OnInit} from '@angular/core';
-import {
-  TourAnchorDirective,
-  TourState
-} from '@ngx-tour/core';
+import type { OnDestroy, OnInit } from '@angular/core';
+import { TourAnchorDirective, TourState } from '@ngx-tour/core';
 import { Subscription } from 'rxjs';
 import withinviewport from 'withinviewport';
 
 import { TourAnchorOpenerComponent } from './tour-anchor-opener.component';
 import { TourStepTemplateService } from './tour-step-template.service';
 import { first } from 'rxjs/operators';
-import {TourBackdropService} from './tour-backdrop.service';
+import { TourBackdropService } from './tour-backdrop.service';
 import { INgxmStepOption as IStepOption } from './step-option.interface';
-import {NgxmTourService} from './ngx-md-menu-tour.service';
+import { NgxmTourService } from './ngx-md-menu-tour.service';
 
 @Directive({
-  selector: '[tourAnchor]'
+  selector: '[tourAnchor]',
 })
 export class TourAnchorMatMenuDirective
   implements OnInit, OnDestroy, TourAnchorDirective {
   @Input() public tourAnchor: string;
+  @HostBinding('class.touranchor--is-active') public isActive: boolean;
+
   public opener: TourAnchorOpenerComponent;
   public menuCloseSubscription: Subscription;
-
-  @HostBinding('class.touranchor--is-active') public isActive: boolean;
 
   constructor(
     private componentFactoryResolver: ComponentFactoryResolver,
@@ -63,14 +60,14 @@ export class TourAnchorMatMenuDirective
     // Ignore step.placement
     if (!step.preventScrolling) {
       if (!withinviewport(this.element.nativeElement, { sides: 'bottom' })) {
-        (<HTMLElement>this.element.nativeElement).scrollIntoView(false);
+        (this.element.nativeElement as HTMLElement).scrollIntoView(false);
       } else if (
         !withinviewport(this.element.nativeElement, { sides: 'left top right' })
       ) {
-        (<HTMLElement>this.element.nativeElement).scrollIntoView(true);
+        (this.element.nativeElement as HTMLElement).scrollIntoView(true);
       }
     }
-    (<any>this.opener.trigger)._element = this.element;
+    (this.opener.trigger as any)._element = this.element;
     this.opener.trigger.menu = this.tourStepTemplate.templateComponent.tourStep;
     this.opener.trigger.ngAfterContentInit();
     this.opener.trigger.openMenu();

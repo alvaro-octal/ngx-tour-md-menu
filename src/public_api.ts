@@ -7,5 +7,5 @@ export { NgxmTourService as TourService } from './lib/ngx-md-menu-tour.service';
 export {
   TourMatMenuModule,
   TourAnchorMatMenuDirective,
-  TourStepTemplateComponent
-} from "./lib/md-menu.module";
+  TourStepTemplateComponent,
+} from './lib/md-menu.module';

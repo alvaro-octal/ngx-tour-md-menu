@@ -37,7 +37,7 @@ export class TourBackdropService {
       top: `${boundingRect.top + window.scrollY}px`,
       left: `${boundingRect.left + window.scrollX}px`,
       'box-shadow': '0 0 0 9999px rgba(0, 0, 0, 0.7)',
-      'z-index': zIndex || 100
+      'z-index': zIndex || 100,
     };
 
     for (const name of Object.keys(styles)) {
