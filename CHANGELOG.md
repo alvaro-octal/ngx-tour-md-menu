@@ -1,23 +1,20 @@
-## [11.1.1](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.1.0...v11.1.1) (2021-03-28)
-
+## [11.1.1](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.1.0...v11.1.1) (2021-03-28)
 
 ### Fix
 
-* hide backdrop when step is hidden ([b30ddd8](https://github.com/alvaro-octal/ngx-tour-md-menu/commit/b30ddd86fafc82858a63150ba2f4aaa2d1ba0cc2))
+-   hide backdrop when step is hidden ([b30ddd8](https://github.com/ngx-tour/ngx-tour-md-menu/commit/b30ddd86fafc82858a63150ba2f4aaa2d1ba0cc2))
 
-# [11.1.0](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.0.4...v11.1.0) (2021-03-28)
-
+# [11.1.0](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.0.4...v11.1.0) (2021-03-28)
 
 ### New
 
-* Add backdrop zindex ([83138ce](https://github.com/alvaro-octal/ngx-tour-md-menu/commit/83138ce61a038ffac17f9fec41844be5a2568aa5))
+-   Add backdrop zindex ([83138ce](https://github.com/ngx-tour/ngx-tour-md-menu/commit/83138ce61a038ffac17f9fec41844be5a2568aa5))
 
-## [11.0.4](https://github.com/alvaro-octal/ngx-tour-md-menu/compare/v11.0.3...v11.0.4) (2021-03-18)
-
+## [11.0.4](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.0.3...v11.0.4) (2021-03-18)
 
 ### Fix
 
-* Release Script ([6b216e6](https://github.com/alvaro-octal/ngx-tour-md-menu/commit/6b216e6d330f218b263e89f3fb9216910a9adf7e))
+-   Release Script ([6b216e6](https://github.com/ngx-tour/ngx-tour-md-menu/commit/6b216e6d330f218b263e89f3fb9216910a9adf7e))
 
 <a name="4.2.0"></a>
 
@@ -25,7 +22,7 @@
 
 ### Features
 
-- Support Angular 10
+-   Support Angular 10
 
 <a name="4.1.1"></a>
 
@@ -33,7 +30,7 @@
 
 ### Fixes
 
-- Skip undefined tourAnchors
+-   Skip undefined tourAnchors
 
 <a name="4.1.0"></a>
 
@@ -41,8 +38,8 @@
 
 ### Features
 
-- Support Angular 8 as peer dependency
-- Support Ivy renderer
+-   Support Angular 8 as peer dependency
+-   Support Ivy renderer
 
 <a name="4.0.1"></a>
 
@@ -50,7 +47,7 @@
 
 ### Fixes
 
-- NavigationStart only hide currentStep if route is specified eg. routing used
+-   NavigationStart only hide currentStep if route is specified eg. routing used
 
 <a name="4.0.0"></a>
 
@@ -58,8 +55,8 @@
 
 ### BREAKING CHANGES
 
-- Require Angular 7 as peer dependency
-- Require Angular Material 7 as peer dependency
+-   Require Angular 7 as peer dependency
+-   Require Angular Material 7 as peer dependency
 
 <a name="3.1.1"></a>
 
@@ -67,7 +64,7 @@
 
 ### Bug fixes
 
-- Add class to backdrop element
+-   Add class to backdrop element
 
 <a name="3.1.0"></a>
 
@@ -75,7 +72,7 @@
 
 ### Features
 
-- EnableBackdrop option
+-   EnableBackdrop option
 
 <a name="3.0.0"></a>
 
@@ -83,8 +80,8 @@
 
 ### BREAKING CHANGES
 
-- Require Angular 6 as peer dependency
-- Require Angular Material 6 as peer dependency
+-   Require Angular 6 as peer dependency
+-   Require Angular Material 6 as peer dependency
 
 <a name="2.0.0"></a>
 
@@ -92,8 +89,8 @@
 
 ### Features
 
-- Add touranchor-is-active class
-- Add options to set button text
+-   Add touranchor-is-active class
+-   Add options to set button text
 
 <a name="2.0.0-rc.2"></a>
 
@@ -101,8 +98,8 @@
 
 ### BREAKING CHANGES
 
-- Update to ngx-tour-core 2.x (Angular 5 and disabling hotkeys)
-- Update @angular/material to 5.0.0-rc.2
+-   Update to ngx-tour-core 2.x (Angular 5 and disabling hotkeys)
+-   Update @angular/material to 5.0.0-rc.2
 
 <a name="2.0.0-beta.12"></a>
 
@@ -110,8 +107,8 @@
 
 ### BREAKING CHANGES
 
-- Update @angular/material to 2.0.0-beta.12
-- Except for the library name, all 'md-' strings have been changed to 'mat-'
+-   Update @angular/material to 2.0.0-beta.12
+-   Except for the library name, all 'md-' strings have been changed to 'mat-'
 
 <a name="1.0.4"></a>
 
@@ -119,7 +116,7 @@
 
 ### Bug fixes
 
-- Update @angular/material to 2.0.0-beta.10
+-   Update @angular/material to 2.0.0-beta.10
 
 <a name="1.0.3"></a>
 
@@ -127,7 +124,7 @@
 
 ### Bug fixes
 
-- Fix aot build
+-   Fix aot build
 
 <a name="1.0.2"></a>
 
@@ -135,7 +132,7 @@
 
 ### Docs
 
-- Add readme
+-   Add readme
 
 <a name="1.0.1"></a>
 
@@ -143,7 +140,7 @@
 
 ### Bug fixes
 
-- Export all of core exports
+-   Export all of core exports
 
 <a name="1.0.0"></a>
 
@@ -151,4 +148,4 @@
 
 ### BREAKING CHANGES
 
-- Split out to a separate package
+-   Split out to a separate package
