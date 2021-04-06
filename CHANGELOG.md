@@ -1,3 +1,14 @@
+## [11.1.2](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.1.1...v11.1.2) (2021-04-06)
+
+
+### Fix
+
+* update peer dependencies ([e939fcc](https://github.com/ngx-tour/ngx-tour-md-menu/commit/e939fcca0064edffbd6e7aee7c5bac4a17eef3bc))
+
+### Minor
+
+* Change ownership ([5a3f2bb](https://github.com/ngx-tour/ngx-tour-md-menu/commit/5a3f2bb0e59c19145f845a540fac0eb334117735))
+
 ## [11.1.1](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.1.0...v11.1.1) (2021-03-28)
 
 ### Fix
