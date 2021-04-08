@@ -1,3 +1,10 @@
+## [11.1.3](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.1.2...v11.1.3) (2021-04-08)
+
+
+### Fix
+
+* update @ngx-tour/core and use innerHTML tag for content ([c2710e6](https://github.com/ngx-tour/ngx-tour-md-menu/commit/c2710e6956f10a2ef78da6dddad790aea70f7a8f))
+
 ## [11.1.2](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.1.1...v11.1.2) (2021-04-06)
 
 
