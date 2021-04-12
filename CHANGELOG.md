@@ -1,3 +1,10 @@
+# [11.2.0](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.1.3...v11.2.0) (2021-04-12)
+
+
+### Chore
+
+* Update dependencies ([9d7d609](https://github.com/ngx-tour/ngx-tour-md-menu/commit/9d7d609c2255dce8e11128c2a4ec802a15b6bfec))
+
 ## [11.1.3](https://github.com/ngx-tour/ngx-tour-md-menu/compare/v11.1.2...v11.1.3) (2021-04-08)
 
 
